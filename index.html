@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alibaba</title>
+    <!--External CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Internal CSS-->
+    <style></style>
+</head>
+<body>
+    <header class="top-header">
+        <!--Create area for logo-->
+        <div class="brand">
+            <span class="brand-mark">SP</span>
+            <h1>Shoepeeps Shop</h1>
+        </div>
+        <!--Navigation Bar-->
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="home">Home</a></li>
+                <!--Dropdown menu-->
+                <li class="dropdown">
+                    <a href="collections">Collections</a> 
+                    <ul class="dropdown-menu">
+                        <li><a href="running">Running</a></li>
+                        <li><a href="casual">Casual</a></l>
+                        <li><a href="basketball">Basketball</a></li>
+                    </ul>
+                </li>
+                <li><a href="#features">Feautres</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <!--Hero section-->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="highlight">
+                    PREMIUM FOOTWEAR PRESENTATION
+                </p>
+                <h2>
+                    Step Forward Into Something Better
+                </h2>
+                <p>
+                    Discover comfortable and stylish footwear design for everyday life, sports, and adventures.
+                </p>
+                <a href="collections" class="view-button"> View collection</a>
+                <p class="small-text">
+                    Find Your Perfect Pair Collection
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="image/shoepeeps.jpg" alt="shoes">
+            </div>
+        </section>
+
+        <!--Internal CSS demo-->
+        <section class="css-demo">
+            <h3>Internal CSS Demo</h3>
+
+            <p>
+                This box is styled using CSS rules written inside the
+                <strong>&lt;style&gt;</strong> element.
+            </p>
+        </section>
+
+        <section class="feature-row">
+            <!--List of features-->
+            <div class="features" id="features">
+                 <h3>Product Highlights</h3>
+
+                <ul>
+                    <li>Lightweight & Comfortable to wear</li>
+                    <li>Stylish & Trendy design</li>
+                    <li>Versatile & Functional</li>
+                    <li>Available in multiple sizes</li>
+                    <li>Perfect for different styles</li>
+                    <li>Made for everyday activities</li>
+                </ul>
+
+            </div>
+
+            <!--Size table-->
+            <div class="size-guide">
+
+                <h3>Size Guide</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Length (cm)</th>
+                            <th>Fit</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>7</td>
+                            <td>25.0</td>
+                            <td>Slim</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>26.0</td>
+                            <td>Regular</td>
+                        </tr>
+
+                        <tr>
+                            <td>9</td>
+                            <td>27.0</td>
+                            <td>Roomy</td>
+                        </tr>
+                        
+                        <tr>
+                        <td>10</td>
+                        <td>28 cm</td>
+                        <td>Roomy</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+        <!--Image gallery-->
+        <section class="gallery-section" id="gallery">
+
+            <h3>Image Gallery</h3>
+
+            <div class="gallery">
+
+                <img src="image/travis.jpg" alt="Casual shoe">
+
+                <img src="image/running.jpg" alt="Running shoe">
+
+                <img src="image/sneaker.jpg" alt="White sneaker">
+
+            </div>
+
+        </section>
+
+        <section class="cards">
+
+            
+            <!--Card 1 (ordered list)-->
+            <div class="card">
+
+                <h3>Why Choose This Shoe</h3>
+
+                <ol>
+                    <li>Comfortable for daily wear</li>
+                    <li>Durable for long-term use</li>
+                    <li>Modern appearance for casual outfits</li>
+                </ol>
+
+            </div>
+
+
+            
+            <!--Card 2 (links)-->
+            <div class="card">
+
+                <h3>Purchase Links</h3>
+
+                <ul>
+                    <li>
+                        <a href="#">Official Store</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Online Marketplace</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Featured Style Collection</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+        <!--Inline CSS demo (ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)-->
+        <section class="css-demo">
+
+            <h3>Inline CSS Example</h3>
+
+            <p style="color: #ff6b35;">
+                This text uses inline CSS styling directly inside the HTML element.
+            </p>
+
+        </section>
+
+        <!--Products-->
+        <!--Product grid (ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)-->
+        <!--Product Photo (Facebook Page Store of Shoepeeps)-->
+        <div class="product-grid">
+
+      <div class="product-card">
+        <img src="image/eybl.jpg" alt="Kobe 6 EYBL">
+        <h4>Kobe 6 "EYBL"</h4>
+        <p>Bilhin niyo na to guys, maganda na mura pa switch na.</p>
+        <p class="price">P6,250.00</p>
+        <button class="cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="image/dodgers.jpg" alt="Kobe 6 Dodgers">
+        <h4>Kobe 6 Dodgers</h4>
+        <p>Shout out kay mama, bilhan mo ako ng ganito please.</p>
+        <p class="price">P7,800.00</p>
+        <button class="cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="image/chicago.jpg" alt="J1 Chicago OG">
+        <h4>J1 Chicago OG</h4>
+        <p>Hindi masakit sa paa pero masakit sa bulsa, aray ko poh.</p>
+        <p class="price">P8,500.00</p>
+        <button class="cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="image/retro.jpg" alt="J1 Retro low OG">
+        <h4>J1 Retro low OG</h4>
+        <p>Subukan niyong apakan to maykalalagyan kayo saken.</p>
+        <p class="price">P8,500.00</p>
+        <button class="cart-btn">Add to Cart</button>
+      </div>
+
+      <!--Photos and video-->
+      <div class="product-card">
+        <img src="image/enzo.jpg" alt="Ban-aw">
+        <h4>Ban-aw</h4>
+      </div>
+
+      <div class="product-card">
+       <!--Video (ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)-->
+       <video src="video/tropips.mp4" controls></video>
+        <h4>Dagat with homies</h4>
+      </div>
+
+      <div class="product-card">
+        <img src="image/cod.jpg" alt="CODM">
+        <h4>Codm with busseng</h4>
+      </div>
+
+      <div class="product-card">
+        <img src="image/homies.jpeg" alt="tropips">
+        <h4>Tropips</h4>
+      </div>
+
+    </div>
+  </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        © 2026 Shoepeeps Shoe Collection
+    </footer>
+</body>
+</html>
